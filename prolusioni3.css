@@ -1,0 +1,101 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{box-sizing: border-box;}
+body{margin: 0; padding: 0; line-height: 1.6; font-size: 1.2rem; font-family: 'Montserrat', sans-serif; background-color: #f8f6f4;}
+h1, h2, h3{font-family: 'Merriweather', serif;}
+
+/* Header */
+#header{background-color: #312b44;}
+#header, #scroll_top{display: flex; justify-content: flex-end; align-items: center;}
+.navbar, #bibliografia ul{list-style-type: none; padding: 0;}
+.navbar li{display:inline-block;}
+.navbar li a{display: block; padding: 15px; text-decoration: none; color: #fff;}
+.navbar li a:hover{background-color:#7e4a35; border-radius: 10px;}
+#hamburger{color: #fff; display: none; margin: 5px; cursor: pointer;}
+#hamburger:hover{color: #7e4a35;}
+
+/* Informazioni  titolo */
+#title, #bibliografia{margin-top: 100px; text-align: center; padding: 25px;}
+
+/* Descrizione */
+.descrizione{display: flex; align-items: center; justify-content: space-between;}
+.descrizione div{margin: 25px;}
+.card_descrizione h2{text-align: center; background-color: #7e4a35; color: #fff; border-radius: 10px;}
+
+/* Slide */
+#slide{width: 80%; position: relative; margin: 25px auto;}
+.foto{width: 500px; display: none; margin: 0 auto; text-align: center;}
+.show{display: block;}
+#indietro, #avanti{position: absolute; top:50%; cursor: pointer; border-radius: 10px;}
+#indietro{left:0;}
+#avanti{right:0;}
+#avanti:hover, #indietro:hover{background-color: #7e4a35; color: #fff;}
+#testo_foto{display:block; text-align: center;}
+
+/* Lista bottoni */
+.lista_bottoni{display: flex; justify-content: center;}
+.lista_bottoni button{margin: 15px; cursor: pointer; padding: 10px; border-radius: 10px; opacity: 0.7;}
+.lista_bottoni button:hover{opacity: 1;}
+#correzioni{color: #fff;}
+#correzioni, .red, .inline_block{background-color: #ff0000;}
+#terminologia, .yellow{ background-color: #ffff00;}
+#aggiunte, .acquamarine{background-color: aquamarine;}
+#glottonimi, .purple{background-color: plum}
+#toponimi, .light_coral{background-color: lightcoral;}
+#date, .light_green{background-color: lightgreen;}
+
+/* Pagine 4&5 */
+#pagine4_5{margin-top: 100px;}
+.pagina h2{text-align: center;}
+.testo_pagina{padding: 35px; width: 80%; margin: auto; display: flex; justify-content: space-between;}
+.testo{max-width: 50%; margin: 25px;}
+.testo b{margin-right: 5px;}
+.abbr, .expan, span, u{margin-left: 5px; margin-right: 5px;}
+.expan, .none, .del, .add{display: none;}
+.acquamarine, .line_through, .inline_block, footer h3, footer p{display: inline-block;}
+.del{text-decoration: line-through;}
+.pericope{display:block; background-color: #7e4a35; color: #fff; margin-top: 25px; padding: 5px; border-radius: 10px;}
+.terms{text-decoration: none; color: inherit;}
+
+/* Glossario */
+#glossario{margin: 100px auto; padding: 15px; width: 80%;}
+.label{background-color: #7e4a35; color: #fff; padding: 5px; border-radius: 10px;}
+
+/* Scroll top */
+#top{text-decoration: none; color: #7e4a35; margin: 15px;}
+
+/* Footer */
+footer{margin-top: 100px; background-color:#312b44; color: #fff; padding: 15px;}
+
+/* Responsive */
+@media screen and (max-width: 1024px){
+
+    /* Header */
+    #header{flex-wrap: wrap;}
+    .navbar{width: 100%; display: none;}
+    .navbar li{display: block; width: 100%;}
+    .navbar li a{text-align: center;}
+    footer h3, footer p, .block, #hamburger{display: block;}
+
+    /* Informazioni titolo */
+    #title, #bibliografia{text-align: initial;}
+
+    /* Caratteristiche */
+    .descrizione, .lista_bottoni{flex-wrap: wrap;}
+    .descrizione div, .descrizione div img{width: 100%;}
+    #order_2{order: 2;}
+    #order_1{order: 1;}
+
+    /* Pagine 4&5 */
+    #pagine4_5{margin-top: 50px; padding: 15px;}
+    .lista_bottoni button{display: block; width: 100%;}
+    .testo_pagina{padding: 0; width: 100%; flex-wrap: wrap;}
+    .testo{max-width: 100%;}
+
+    /* Glossario */
+    #glossario{width: 100%;}
+
+}

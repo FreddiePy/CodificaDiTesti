@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Appunti per le prime conferenze all’Università di Ginevra
+    Codice archivistico “BGE Ms. fr. 3951/1.3”
+
+    Filename: prolusioni3.xml
+    Author: Marco Di Caro, Federica Papa
+    Date: 2022-07 -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <!-- Descrizione bibliografica file elettronico -->
+            <titleStmt>
+                <title xml:lang="fr">Trois premières conférences à l'Université</title>
+                <title xml:lang="it">Le prime tre conferenze all'Università</title>
+                <author xml:lang="fr" ref="#FDS">Ferdinad De Saussure</author>
+            </titleStmt>
+
+            <!-- Edizione testo -->
+            <editionStmt>
+                <edition n="DigitalEdition">
+                    Edizione digitale <date when="2022-07">Luglio 2022</date>
+                </edition>
+                <respStmt>
+                    <resp>Progetto coordinato da:</resp>
+                    <persName>
+                        <forename>Angelo</forename>
+                        <forename>Mario</forename>
+                        <surname>Del Grosso</surname>
+                    </persName>
+                </respStmt>
+                <respStmt xml:id="M_F">
+                    <resp>Codifica a cura di:</resp>
+                    <persName>
+                        <forename>Marco</forename>
+                        <surname>Di Caro</surname>
+                    </persName>
+                    <persName>
+                        <forename>Federica</forename>
+                        <surname>Papa</surname>
+                    </persName>
+                </respStmt>
+                <respStmt xml:id="B_E">
+                    <resp>Trascrizione a cura di:</resp>
+                    <persName ref="#SB">Simon Bouquet</persName>
+                    <persName ref="#RE">Rudolf Engler</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Traduzione a cura di:</resp>
+                    <persName ref="#EF">Emanuele Fadda</persName>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date when="2022-07">Luglio 2022</date>
+                <availability status="free">
+                    <p>Opera ad accesso libero</p>
+                </availability>
+                <pubPlace>Pisa</pubPlace>
+            </publicationStmt>
+
+            <!-- Fonte primaria -->
+            <sourceDesc>
+                <!-- Descrizione manoscritto -->
+                <msDesc>
+                    <!-- Identificazione manoscritto -->
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
+                        <collection>Archivi Ferdinand de Saussure</collection>
+                        <idno type="inventory">BGE Ms.fr.3951/1.1-3</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FDS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">(cours d'ouverture,<date when="1891-11">novembre 1891</date>)</title>
+                        </msItem>
+                    </msContents>
+                    <!-- Supporto fisico -->
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>Fogli di carta</p>
+                                </support>
+                                <extent>
+                                    <measure unit="pages" quantity="67">
+                                        Sono presenti 67 pagine (in gruppi di 30 + 15 + 22 pp.) + 1 foglietto.
+                                    </measure>
+                                </extent>
+                                <condition>Le pagine si presentano in condizioni abbastanza buone e con danni lievi, 
+                                come qualche strappo, che non ostacolano la lettura.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc hands="1">
+                            <p>Il testo è stato scritto a mano solo dal suo autore.</p>
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin notAfter="1891-11">
+                            <p>
+                                Appunti probabilmente destinati alla pubblicazione di una brochure, sono stati scritti per le conferenze all'Università di 
+                                <placeName ref="#GE">Ginevra</placeName> e utilizzati in parte nel <date when="1891-11">novembre 1891</date> 
+                                per le prime lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>.
+                            </p>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <!-- Aspetti non bibliografici -->
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <creation>
+                <date when="1891-11">Novembre 1891</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <!-- Prolusioni 3 - Pagina 4 -->
+        <surface n="1" xml:id="foglio4">
+            <graphic url='img/f4_Prol3.jpg' width='1604.6px' height='2539.6px' />
+
+            <zone ulx="295" uly="25" lrx="1513" lry="255" xml:id="p4_R1"/>
+            <zone ulx="240" uly="268" lrx="1549" lry="374" xml:id="p4_R2"/>
+            <zone ulx="238" uly="383" lrx="1535" lry="491" xml:id="p4_R3"/>
+            <zone ulx="284" uly="474" lrx="1582" lry="565" xml:id="p4_R4"/>
+            <zone ulx="271" uly="578" lrx="1520" lry="678" xml:id="p4_R5"/>
+            <zone ulx="270" uly="694" lrx="1537" lry="774" xml:id="p4_R6"/>
+            <zone ulx="300" uly="774" lrx="1468" lry="880" xml:id="p4_R7"/>
+            <zone ulx="91" uly="840" lrx="1577" lry="978" xml:id="p4_R8"/>
+            <zone ulx="85" uly="961" lrx="1536" lry="1093" xml:id="p4_R9"/>
+            <zone ulx="47" uly="1053" lrx="1573" lry="1226" xml:id="p4_R10"/>
+            <zone ulx="107" uly="1189" lrx="1550" lry="1312" xml:id="p4_R11"/>
+            <zone ulx="332" uly="1265" lrx="1573" lry="1379" xml:id="p4_R12"/>
+
+            <!-- Nota a margine -->
+            <zone ulx="54" uly="1399" lrx="290" lry="1640" xml:id="p4_N"/>
+
+            <zone ulx="305" uly="1406" lrx="1574" lry="1477" xml:id="p4_R13"/>
+            <zone ulx="304" uly="1488" lrx="1580" lry="1600" xml:id="p4_R14"/>
+            <zone ulx="295" uly="1562" lrx="1560" lry="1685" xml:id="p4_R15"/>
+            <zone ulx="294" uly="1688" lrx="1554" lry="1780" xml:id="p4_R16"/>
+            <zone ulx="304" uly="1766" lrx="1544" lry="1876" xml:id="p4_R17"/>
+            <zone ulx="302" uly="1858" lrx="1570" lry="1974" xml:id="p4_R18"/>
+            <zone ulx="300" uly="1945" lrx="1555" lry="2078" xml:id="p4_R19"/>
+            <zone ulx="314" uly="2064" lrx="1544" lry="2185" xml:id="p4_R20"/>
+            <zone ulx="313" uly="2156" lrx="1459" lry="2278" xml:id="p4_R21"/>
+            <zone ulx="334" uly="2261" lrx="1513" lry="2363" xml:id="p4_R22"/>
+            <zone ulx="336" uly="2344" lrx="1590" lry="2459" xml:id="p4_R23"/>
+            <zone ulx="383" uly="2436" lrx="1579" lry="2522" xml:id="p4_R24"/>
+        </surface>
+
+        <!-- Prolusioni 3 - pagina 4 retro -->
+        <surface n="2" xml:id="retro">
+            <graphic url='img/p4_retro.jpg' width='1014px' height='1600px' />
+        </surface>
+
+        <!-- Prolusioni 3 - Pagina 5 -->
+        <surface n="3" xml:id="foglio5">
+            <graphic url='img/f5_Prol3.jpg' width='1588.6px' height='2523.6px' />
+            
+            <zone ulx="330" uly="25" lrx="1496" lry="184" xml:id="p5_r1" />
+            <zone ulx="258" uly="191" lrx="1528" lry="325" xml:id="p5_r2"/>
+            <zone ulx="272" uly="289" lrx="1565" lry="385" xml:id="p5_r3"/>
+            <zone ulx="266" uly="394" lrx="1548" lry="475" xml:id="p5_r4"/>
+            <zone ulx="266" uly="481" lrx="1544" lry="578" xml:id="p5_r5"/>
+            <zone ulx="258" uly="546" lrx="1555" lry="708" xml:id="p5_r6"/>
+            <zone ulx="270" uly="682" lrx="1568" lry="792" xml:id="p5_r7"/>
+            <zone ulx="242" uly="766" lrx="1519" lry="904" xml:id="p5_r8"/>
+            <zone ulx="238" uly="895" lrx="1537" lry="1014" xml:id="p5_r9"/>
+            <zone ulx="211" uly="998" lrx="1564" lry="1158" xml:id="p5_r10"/>
+            <zone ulx="244" uly="1127" lrx="1518" lry="1238" xml:id="p5_r11"/>
+            <zone ulx="254" uly="1231" lrx="1562" lry="1348" xml:id="p5_r12"/>
+            <zone ulx="252" uly="1334" lrx="1549" lry="1459" xml:id="p5_r13"/>
+            <zone ulx="244" uly="1451" lrx="1508" lry="1561" xml:id="p5_r14"/>
+            <zone ulx="230" uly="1556" lrx="1489" lry="1667" xml:id="p5_r15"/>
+            <zone ulx="239" uly="1656" lrx="1504" lry="1784" xml:id="p5_r16"/>
+            <zone ulx="217" uly="1784" lrx="1536" lry="1913" xml:id="p5_r17"/>
+            <zone ulx="217" uly="1900" lrx="1489" lry="2024" xml:id="p5_r18"/>
+            <zone ulx="233" uly="1994" lrx="1510" lry="2104" xml:id="p5_r19"/>
+            <zone ulx="200" uly="2087" lrx="1535" lry="2196" xml:id="p5_r20"/>
+            <zone ulx="210" uly="2200" lrx="1505" lry="2292" xml:id="p5_r21"/>
+            <zone ulx="208" uly="2298" lrx="1506" lry="2402" xml:id="p5_r22"/>
+            <zone ulx="170" uly="2369" lrx="1537" lry="2488" xml:id="p5_r23"/>
+
+            <!-- Nota a margine -->
+            <zone ulx="8" uly="1320" lrx="241" lry="2480" xml:id="p5_n1"/>
+
+        </surface>
+    </facsimile>
+
+    <text>
+        <group>
+            <text subtype="manuscript">
+                <body>
+                    <!-- pagina 4 -->
+                    <div facs="#foglio4" n="4">
+                        <pb n="4" />
+                        <!-- Continuo dell'ultima pericope del foglio 3 ma segnata come prima pericope del foglio 4 -->
+                        <ab type="paragrafo" n="1" xml:id="p4_Par1">
+                            <lb n="1" facs="#p4_R1" xml:id="p4_L1" />
+                            mais constituant
+                            <add hand="#FDS" place="above">toujours
+                                <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                                <term ref="#termes">termes</term>,
+                                <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                                <term ref="#langues">langues</term>,
+                            </add> 
+                            <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                            <term ref="#etres">êtres</term>,
+                            <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                            <lb n="2" facs="#p4_R2" xml:id="p4_L2" />
+                            <term ref="#entites">entités</term>,
+                            <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                            <term ref="#organismes">organismes</term>,
+                            <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                            <del rend="overstike"><unclear reason="parterased" cert="high" resp="#M_F">notions</unclear></del>
+                            <lb n="3" facs="#p4_R3" xml:id="p4_L3" />
+                            <del rend="overstrike">
+                                <gap reason="illegible" extent="11" unit="chars" />
+                                <unclear reason="parterased" cert="high" resp="#M_F">successiones.</unclear>
+                            </del>
+                            <term ref="#principes">principes</term>,
+                            <lb n="4" facs="#p4_R4" xml:id="p4_L4" />
+                            <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                            <term ref="#notions">notions</term>,
+                            <add hand="#FDS" place="above">
+                                <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                                <term ref="#termes">termes</term>
+                            </add>
+                            <term ref="#differents">différents.</term>
+                        </ab>
+                        <ab type="paragrafo" n="2" xml:id="p4_Par2">
+                            On
+                            <subst hand="#FDS">
+                                <del rend="overstrike"><gap reason="illegible" extent="10" atLeast="9" atMost="11" unit="chars" /></del>
+                                <add place="above">continue à</add>
+                            </subst>
+                            <lb n="5" facs="#p4_R5" xml:id="p4_L5" />
+                            <del hand="#FDS" rend="overstrike"><gap reason="illegible" extent="8" atLeast="7" atMost="9" unit="chars" /></del> 
+                            se représenter le <!-- glottonimo --> <lang>latin</lang> et 
+                            <lb n="6" facs="#p4_R6" xml:id="p4_L6" />
+                            le <!-- glottonimo --> <lang>français</lang> comme les <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                            <term ref="#frondaisons">frondaisons</term>
+                            <lb n="7" facs="#p4_R7" xml:id="p4_L7" />
+                            <term ref="#succesives">successives</term>du même<term ref="#arbre">arbre</term>
+                            <del rend="overstrike" hand="#FDS"><unclear reason="parterased" cert="high" resp="#M_F">d'u</unclear></del>
+                            <lb n="8" facs="#p4_R8" xml:id="p4_L8" />
+                            <subst hand="#FDS">
+                                <add place="margin left">depuis</add> 
+                                <del rend="overstike"><unclear reason="parterased" cert="medium" resp="#M_F">de l'auto</unclear>
+                                <gap reason="illegible" extent="2" unit="chars"/></del> 
+                            </subst>
+                            la chute des feuilles<add place="above" hand="author">d’automne</add> 
+                            <lb n="9" facs="#p4_R9" xml:id="p4_L9" />
+                            <add hand="#FDS" place="margin left">jusqu’à</add>la naissance des bourgeons
+                            <add hand="#FDS" place="above">au renouveau</add>;
+                            <del rend="overstrike" hand="#FDS"><gap reason="illegible" extent="2" unit="chars" /></del>
+                        </ab>
+                        <ab type="paragrafo" n="3" xml:id="p4_Par3">
+                            <lb n="10" facs="#p4_R10" xml:id="p4_L10" />
+                            <add hand="#FDS" place="margin left">on accorde</add>
+                            <add hand="#FDS" place="above">avec empressement</add>
+                            <add hand="#FDS" place="below">que le</add> passage est 
+                            <add hand="#FDS" place="above">
+                                <del rend="overstrike"><gap reason="illegible" extent="12" atLeast="10" atMost="13" unit="chars" /></del>
+                            </add>
+                            <term ref="#insensible">insensible</term>dans les canaux
+                            <lb n="11" facs="#p4_R11" xml:id="p4_L11" />
+                            <add hand="#FDS" place="margin left">secrets</add>où se distribue la<term ref="#vie">vie</term>
+                            <del rend="overstrike" hand="#FDS">
+                                <unclear reason="parterased" cert="high" resp="#M_F">du</unclear>
+                                <gap reason="illegible" extent="7" atLeast="6" unit="chars" />
+                            </del>,
+                            <lb n="12" facs="#p4_R12" xml:id="p4_L12" />
+                            mais 
+                            <subst hand="#FDS">
+                                <del rend="overwrite"><gap reason="illegible"/></del>
+                                <add>on</add>
+                            </subst>
+                            <subst hand="#FDS">
+                                <del rend="overstrike"><gap reason="illegible" extent="2" unit="chars" /></del>
+                                <add place="above">
+                                    <subst>
+                                        <del rend="overwrite"><gap reason="illegible" extent="4" atMost="5"/></del>
+                                        <add>manti</add>
+                                    </subst>
+                                    ent qu’il y a
+                                </add>
+                            </subst>
+                            <choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice> 
+                            <term ref="#periode">périodes</term>caractérisées.
+                        </ab>
+                        <ab type="paragrafo" n="4" xml:id="p4_Note">
+                            <!-- Nota a margine -->
+                            <add facs="#p4_N" hand="#FDS" place="margin left">
+                            Voilà,<term ref="#incontestablement">incontestablement</term> l’<term ref="#idee">idée</term>répandue.
+                            </add>
+                        </ab>
+                        <ab type="paragrafo" n="5" xml:id="p4_Par5">
+                            <lb n="13" facs="#p4_R13" xml:id="p4_L13" />
+                            Or à quoi peut-on comparer en<term ref="#realite">réalité</term> 
+                            <lb n="14" facs="#p4_R14" xml:id="p4_L14" />
+                            la soi-disant<term ref="#succession">succession</term>du 
+                            <!-- glottonimo --> <lang>français</lang> 
+                            <lb n="15" facs="#p4_R15" xml:id="p4_L15" />
+                            au <!-- glottonimo --> <lang>latin</lang> ?
+                        </ab>
+                        <ab type="paragrafo" n="6" xml:id="p4_Par6">
+                            <del rend="overstrike"><gap reason="illegible" extent="1" unit="chars" /></del>
+                            <subst hand="#FDS">
+                                <del rend="overstrike"><unclear reason="parterased" cert="high" resp="#M_F">Soit</unclear></del>
+                                <add place="above">Imaginons<supplied reason="omitted-in-original" resp="#B_E">-nous</supplied></add>
+                            </subst> 
+                            dans une 
+                            <lb n="16" facs="#p4_R16" xml:id="p4_L16" />
+                            ville une<emph rend="underline">rue</emph>très longue; on pourra
+                            <lb n="17" facs="#p4_R17" xml:id="p4_L17" />
+                            discuter dans les conseils de l’édilité
+                            <lb n="18" facs="#p4_R18" xml:id="p4_L18" />
+                            si on lui donnera <choice><orig>d</orig><reg resp="#B_E">dans</reg></choice>
+                            <choice><orig>tte</orig><reg resp="#B_E">toute</reg></choice> 
+                            sa longueur 
+                            <lb n="19" facs="#p4_R19" xml:id="p4_L19" />
+                            un <term ref="#nom">nom</term>unique<choice><orig resp="#B_E">,</orig><reg resp="#B_E">;</reg></choice>
+                        </ab>
+                        <ab type="paragrafo" n="7" xml:id="p4_Par7">
+                            <choice><abbr>p<am>.</am></abbr><expan resp="#B_E">p<ex>ar</ex></expan></choice>
+                            <choice><abbr>ex<am>.</am></abbr><expan resp="#B_E">ex<ex>emple</ex></expan></choice> 
+                            <!--Toponimo -->
+                            <name type="place" ref="#boulevard_Nat"><emph rend="underline">boulevard</emph></name>
+                            <lb n="20" facs="#p4_R20" xml:id="p4_L20" />
+                            <name type="place" ref="#boulevard_Nat"> <emph rend="underline">National</emph></name>; ou bien si on divisera
+                            <lb n="21" facs="#p4_R21" xml:id="p4_L21" />
+                            cette rue en<choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice>
+                            <term ref="#parties">parties</term>,
+                            <!--Toponimo -->
+                            <name type="place" ref="#boulevard_Temp"><emph rend="underline">boulevard</emph></name>
+                            <lb n="22" facs="#p4_R22" xml:id="p4_L22" />
+                            <name type="place" ref="boulevard_Temp"><emph rend="underline">du Temple</emph></name>
+                            et<name type="place" ref="boulevard_Ec"><emph rend="underline">boulevard de l’École</emph>,</name>
+                            <lb n="23" facs="#p4_R23" xml:id="p4_L23" />
+                            ou bien en <choice><abbr>3</abbr><expan resp="#B_E"><num type="cardinal" value="3">trois</num></expan></choice>
+                            <choice><orig>:</orig><reg resp="#B_E">,</reg></choice>
+                            boulevard de X,<choice><abbr>d<am>'</am></abbr><expan resp="#B_E">d<ex>e</ex></expan></choice>Y et de Z, 
+                            <lb n="24" facs="#p4_R24" xml:id="p4_L24" />
+                            ou enfin en<choice><abbr>10</abbr><expan resp="#B_E"><num type="cardinal" value="10">dix</num></expan></choice>,
+                            <choice><abbr>15</abbr><expan resp="#B_E"><num type="cardinal" value="15">quinze</num></expan></choice>fractions portant des 
+                            <supplied reason="omitted-in-original" resp="#B_E"><term ref="#nom">noms</term>différents.</supplied>
+                        </ab>
+                    </div>
+
+                    <!-- pagina 5 -->
+                    <div facs="#foglio5" n="5">
+                        <pb n="5" />
+                        <ab type="paragrafo" n="1"  xml:id="p5_Par1">
+                            <lb xml:id="p3_5_r1" n="1" facs="#p5_r1" />
+                            L'<term ref="#existence">existence</term><add hand="#FDS" place="above"><term ref="#distinct">distinct</term></add>
+                            de chacune de ces
+                            <lb xml:id="p3_5_r2" n="2" facs="#p5_r2" />
+                            portions de rue est naturellement
+                            <lb xml:id="p3_5_r3" n="3" facs="#p5_r3" />
+                            <choice><abbr>1</abbr><expan resp="#B_E"><num type="cardinal" value="1">une</num></expan></choice>
+                            <term ref="#chose">chose</term><term ref="#purement">purement</term><term ref="#nominale">nominale</term>
+                            et<term ref="#fictive">fictive</term><choice><orig>;</orig><reg resp="#B_E">,</reg></choice>
+                            <lb xml:id="p3_5_r4" n="4" facs="#p5_r4" />
+                            il n’y a donc pas lieu de demander
+                            <lb xml:id="p3_5_r5" n="5" facs="#p5_r5" />
+                            comment le boulevard Y devient le boulevard
+                            <lb xml:id="p3_5_r6" n="6" facs="#p5_r6" />
+                            X,
+                            <add hand="#FDS" place="above">ni si le boulevard Y devient<emph rend="underline">subitement</emph>
+                                ou<emph rend="underline"><term ref="#insensiblement">insensiblement</term></emph>
+                                le<choice><orig>b</orig><reg resp="#B_E">boulevard</reg></choice>X
+                            </add>
+                            parce que, pour commencer, il
+                            <lb xml:id="p3_5_r7" n="7" facs="#p5_r7" />
+                            n’y a nulle part de boulevard Y ou de
+                            <lb  xml:id="p3_5_r8" n="8" facs="#p5_r8" />
+                            boulevard X,
+                            <subst hand="#FDS">
+                                <del rend="overstrike"><gap reason="illegible" extent="3" atLeast="2" atMost="4" unit="chars"/></del>
+                                <add place="above">excepté</add>
+                            </subst>
+                            dans notre<term ref="#esprit">esprit</term>.
+                        </ab>
+                        <ab type="paragrafo" n="2"  xml:id="p5_Par2">
+                            De
+                            <lb  xml:id="p3_5_r9" n="9" facs="#p5_r9" />
+                            la même façon, il n’y a<del rend="overstrike" hand="#FDS"><unclear reason="parterased" cert="high" resp="#M_F">pas</unclear></del>nulle
+                            <lb xml:id="p3_5_r10" n="10" facs="#p5_r10" />
+                            part excepté <choice><orig>d</orig><reg resp="#B_E">dans</reg></choice>
+                            notre
+                            <subst hand="#FDS">
+                                <del rend="overstrike"><unclear reason="parterased" cert="medium" resp="#M_F">imagination</unclear><gap reason="illegible" extent="9" atLeast="8" atMost="10" unit="chars"/></del>
+                                <add place="above">esprit</add>
+                            </subst>
+                            un
+                            <lb xml:id="p3_5_r11" n="11" facs="#p5_r11" />
+                            cert<choice><abbr><emph><hi rend="sup">n</hi></emph></abbr><expan resp="#B_E">ain</expan></choice><term ref="#etres">être</term>
+                            qui soit le
+                            <!--glottonimo--><lang xml:id="gl_fr">français</lang>par
+                            <lb xml:id="p3_5_r12" n="12" facs="#p5_r12" />
+                            <term ref="#opposition">opposition</term>à
+                            <choice><abbr>1</abbr><expan resp="#B_E"><num type="cardinal" value="1">un</num></expan></choice>
+                            cert<choice><abbr>n</abbr><expan resp="#B_E">ain</expan></choice><term ref="#etres">être</term>qui soit le
+                            <!--glottonimo--><lang>latin</lang><choice><orig>;</orig><reg resp="#B_E">,</reg></choice>
+
+                            <!-- Nota a margine -->
+                            <add facs="#p5_n1" hand="#FDS" place="margin left">
+                                et il y a donc très peu de profit à dire que l’un sort
+                                <emph rend="underline"><term ref="#progressivement">progressivement</term></emph>de l’autre plutôt qu’à dire que l’un sort 
+                                d’<choice><abbr>1</abbr><expan resp="#B_E"><num type="cardinal" value="1">un</num></expan></choice> seul coup
+                            </add>
+
+                        </ab>
+                        <ab type="paragrafo" n="3"  xml:id="p5_Par3">
+                            <lb xml:id="p3_5_r13" n="13" facs="#p5_r13" />
+                            <subst hand="#FDS">
+                                <del rend="overstrike"><unclear reason="parterased" cert="high" resp="#M_F">Nous</unclear></del>
+                                <add place="above"><term ref="#essentiel">L’essentiel</term>est de comprendre que nous
+                                </add>
+                            </subst>
+                            pouvons
+                            <add hand="#FDS" place="above">
+                                <del rend="overstrike"><gap reason="illegible" extent="5" atLeast="4" atMost="6" unit="chars"/></del>
+                            </add>
+                            <supplied reason="omitted-in-original" resp="#B_E">ne</supplied>
+                            donner 
+                            <supplied reason="omitted-in-original" resp="#B_E">qu'</supplied>
+                            <choice><abbr>1</abbr><expan resp="#B_E"><num type="cardinal" value="1">un</num></expan></choice>seul<term ref="#nom">nom</term>
+                            <lb xml:id="p3_5_r14" n="14" facs="#p5_r14" />
+                            à<choice><orig>tte</orig><reg resp="#B_E">toute</reg></choice>la<term ref="#periode">période</term>de
+                            <date><choice><abbr>21</abbr><expan resp="#B_E">vingt et un</expan></choice>siècles</date>en
+                            <lb xml:id="p3_5_r15" n="15" facs="#p5_r15" />
+                            l’appelant
+                            <emph rend="underline"><!--glottonimo--><lang>latin</lang></emph> 
+                            - ou bien<choice><abbr>2</abbr><expan resp="#B_E"><num type="cardinal" value="2">deux</num></expan></choice><term ref="#nom">noms</term>en
+                            <lb xml:id="p3_5_r16" n="16" facs="#p5_r16" />
+                            l’appelant
+                            <emph><!--glottonimo--><lang>latin</lang></emph>et
+                            <emph><!--glottonimo--><lang>français</lang></emph>,- ou bien
+                            <lb xml:id="p3_5_r17" n="17" facs="#p5_r17" />
+                            <choice><abbr>3</abbr><expan resp="#B_E"><num type="cardinal" value="3">trois</num></expan></choice><term ref="#nom">noms</term>en l’appelant
+                            <emph><!--glottonimo--><lang>latin</lang></emph>,
+                            <emph><!--glottonimo--><lang>roman</lang></emph>,
+                            <lb xml:id="p3_5_r18" n="18" facs="#p5_r18" />
+                            <emph><!--glottonimo--><lang>français</lang></emph>, - ou bien
+                            <choice><abbr>21</abbr><expan resp="#B_E"><num type="cardinal" value="21">vingt et un</num></expan></choice>
+                            <term ref="#nom">noms</term>en
+                            <lb xml:id="p3_5_r19" n="19" facs="#p5_r19" />
+                            l’appelant
+                            <!--glottonimo--><lang>latin</lang>
+                            du<date><choice><orig>2</orig><reg>II</reg></choice><hi rend="sup">e</hi>siècle avant l’ère</date>,
+                            <lb xml:id="p3_5_r20" n="20" facs="#p5_r20" />
+                            du<date><choice><orig>1</orig><reg resp="#B_E">I</reg></choice><hi rend="sup">er</hi> siècle avant l’ère</date>, du
+                            <date><choice><orig>1</orig><reg resp="#B_E">I</reg></choice><hi rend="sup">er</hi>siècle après l’ère</date>,
+                            <lb xml:id="p3_5_r21" n="21" facs="#p5_r21" />
+                            du
+                            <date>
+                                <choice><orig>2</orig><reg resp="#B_E">II</reg></choice><hi rend="sup">e</hi>,
+                                <choice><orig>3</orig><reg resp="#B_E">III</reg></choice><hi rend="sup">e</hi>,
+                                <choice><orig>4</orig><reg resp="#B_E">IV</reg></choice><hi rend="sup">e</hi>,
+                                <choice><orig>7</orig><reg resp="#B_E">VII</reg></choice><hi rend="sup">e</hi>,
+                                <choice><orig>12</orig><reg resp="#B_E">XII</reg></choice><hi rend="sup">e</hi>,
+                                <choice><orig>15</orig><reg resp="#B_E">XV</reg></choice><hi rend="sup">e</hi>,
+                                <choice><orig>19</orig><reg resp="#B_E">XIX</reg></choice><hi rend="sup">e</hi>après l’ère.
+                            </date>.
+                        </ab>
+                        <ab type="paragrafo" n="4"  xml:id="p5_Par4">
+                            <lb xml:id="p3_5_r22" n="22" facs="#p5_r22" />
+                            Et <add hand="#FDS" place="above">qu’</add>il<term ref="#nexiste">n’existe</term><term ref="#litteralement">littéralement</term>aucune autre
+                            <lb xml:id="p3_5_r23" n="23" facs="#p5_r23" />
+                            façon d’introduire<choice><abbr>1</abbr><expan resp="#B_E"><num type="cardinal" value="1">une</num></expan></choice>
+                            division,
+                            <subst hand="#FDS"> 
+                                <del rend="overstrike"><unclear reason="parterased" cert="medium" resp="#M_F">que</unclear></del>
+                                <add hand="#FDS" place="above">si ce n’est</add>
+                            </subst>
+                            cette façon <add hand="#FDS" place="above">tout</add><term ref="#arbitraire">arbitraire</term>
+                            <add hand="#FDS" place="below">et<term ref="#conventionnelle">conventionnelle</term>.</add>
+                        </ab>
+                    </div>
+                </body>
+            </text>
+
+            <text>
+                <body>
+                    <!-- Traduzione italiana pagina 4 -->
+                    <div type="translationP4">
+                        <ab n="1" corresp="#p4_Par1" xml:lang="it">
+                            ma che costituiscono sempre due termini, due lingue, due entità, due organismi, due principi, due nozioni, due termini differenti.
+                        </ab>
+                        <ab n="2" corresp="#p4_Par2" xml:lang="it">
+                            Si continua a rappresentarsi il latino e il francese come le due ramificazioni successive dello stesso albero dopo la caduta delle foglie d’autunno fino alla nascita dei germogli in primavera;
+                        </ab>
+                        <ab n="3" corresp="#p4_Par3" xml:lang="it">
+                            si concede frettolosamente che il passaggio è insensibile nei canali segreti in cui si distribuisce la vita, ma si tiene ben fermo che vi sono due periodi veri e propri.
+                        </ab>
+                        <ab n="4" corresp="#p4_Note" xml:lang="it">
+                            Questa, incontestabilmente, è l’idea universalmente diffusa.
+                        </ab>
+                        <ab n="5" corresp="#p4_Par5" xml:lang="it">
+                            Ora, a che cosa possiamo comparare in realtà la sedicente successione del francese al latino?
+                        </ab>
+                        <ab n="6" corresp="#p4_Par6" xml:lang="it">
+                            Immaginiamo in una città una strada lunghissima; si potrà discutere nei consigli di edilità se le si darà in tutta la sua lunghezza un nome unico,
+                        </ab>
+                        <ab n="7" corresp="#p4_Par7" xml:lang="it">
+                            per esempio 
+                            <hi rend="italic">Via Nazionale</hi>; oppure se si dividerà questa strada in due parti, 
+                            <hi rend="italic">viale del</hi>Duomo o 
+                            <hi rend="italic">viale delle scuole</hi>, oppure in tre, via di X, Y, e Z, o anche in dieci, quindici parti con nomi differenti.
+                        </ab>
+                    </div>
+
+                    <!-- Traduzione italiana pagina 5 -->
+                    <div type="translationP5">
+                        <ab n="1" corresp="#p5_Par1" xml:lang="it">
+                            L’esistenza distinta di ciascuna delle porzioni di strada è naturalmente una cosa nominale e fittizia, e non c’è dunque costrutto a domandare come la via X diventa la via Y, né se la via Y diventa 
+                            <hi rend="italic">d'un tratto</hi> o
+                            <hi rend="italic">insensibilmente</hi> la via X, perché, tanto per iniziare, non c’è nessuna via X o via Y, se non nella nostra mente.
+                        </ab>
+                        <ab n="2" corresp="#p5_Par2" xml:lang="it">
+                            Allo stesso modo, non c’è da nessuna parte, tranne nella nostra mente, un certo essere che sia il francese, per opposizione a un certo essere che sia il latino, e vi è dunque assai poco profitto a dire che uno viene fuori dall’altro
+                            <hi rend="italic">progressivamente</hi> piuttosto che d’un colpo.
+                        </ab>
+                        <ab n="3" corresp="#p5_Par3" xml:lang="it">
+                            L’essenziale è comprendere che noi possiamo dare un solo nome a tutto il periodo di ventun secoli chiamandolo 
+                            <hi rend="italic">latino</hi>, oppure due nomi, chiamandolo 
+                            <hi rend="italic">latino</hi> e 
+                            <hi rend="italic">francese</hi>, oppure tre nomi, chiamandolo 
+                            <hi rend="italic">latino</hi>, 
+                            <hi rend="italic">romanzo</hi>, 
+                            <hi rend="italic">francese</hi>, o anche ventuno nomi, chiamandolo latino del II sec. a.C., del I sec. a.C., del I d.C., del II, III, IV, VII, XII, XV, XIX d.C.
+                        </ab>
+                        <ab n="4" corresp="#p5_Par4" xml:lang="it">
+                            E che non esiste letteralmente nessun altro modo di introdurre una divisione, se non questa maniera arbitraria e convenzionale.
+                        </ab>
+                    </div>
+                </body>
+            </text>
+        </group>
+
+        <back>
+            <!-- Appendice -->
+            <div type="appendix">
+                <!-- Glossario - Terminologia -->
+                <list type="gloss">
+
+                    <label>
+                        <term xml:lang="fr" xml:id="termes">Termes</term>
+                        <term xml:lang="it" ref="#termes">Termini</term>
+                    </label>
+                    <item>
+                        <gloss target="#termes" source="https://www.treccani.it/vocabolario/termine/">
+                            parola, cioè vocabolo o locuzione, che serve a denotare un oggetto o definire un concetto, soprattutto in quanto sia propria di una determinata disciplina o di un linguaggio settoriale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="langues">Langues</term>
+                        <term xml:lang="it" ref="#langues">Lingue</term>
+                    </label>
+                    <item>
+                        <gloss target="#langues" source="https://it.wikipedia.org/wiki/Lingua_(linguistica)">
+                            in linguistica, è il sistema attraverso il quale gli appartenenti a una comunità si esprimono e comunicano tra loro attraverso l'uso di un determinato linguaggio ovvero 
+                            un insieme di segni scritti (simboli) e/o parlati (suoni).
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="etres">Êtres</term>
+                        <term xml:lang="it" ref="#etres">Esseri</term>
+                    </label>
+                    <item>
+                        <gloss target="#etres" source="https://www.treccani.it/vocabolario/essere2/">
+                            si può riferire (e con quest’uso può avere il plur. esseri) alle cose esistenti, con valore indeterminato.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="entites">Entités</term>
+                        <term xml:lang="it" ref="#entites">Entità</term>
+                    </label>
+                    <item>
+                        <gloss target="#entites" source="https://it.wiktionary.org/wiki/entit%C3%A0">
+                            per estensione, tutto quanto si componga di un'essenza e di una forma.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="organismes">Organismes</term>
+                        <term xml:lang="it" ref="#organismes">Organismi</term>
+                    </label>
+                    <item>
+                        <gloss target="#organismes" source="https://www.treccani.it/vocabolario/organismo/">
+                            sistema organizzato di varie parti fra loro connesse e interdipendenti.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="principes">Principes</term>
+                        <term xml:lang="it" ref="#principes">Principi</term>
+                    </label>
+                    <item>
+                        <gloss target="#principes" source="https://it.wikipedia.org/wiki/Principio">
+                            concetto che indica le basi e i presupposti iniziali su cui si basa una teoria e che assumono validità generale ed universale all'interno della teoria stessa.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="notions">Notions</term>
+                        <term xml:lang="it" ref="#notions">Nozioni</term>
+                    </label>
+                    <item>
+                        <gloss target="#notions" source="https://it.wiktionary.org/wiki/nozione">
+                            in filosofia, elemento di conoscenza generica di un determinato argomento.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="differents">Différents</term>
+                        <term xml:lang="it" ref="#differents">Differenti</term>
+                    </label>
+                    <item>
+                        <gloss target="#differents" source="https://www.treccani.it/vocabolario/differente/">
+                            che ha natura o qualità dissimili da quelle di un altro oggetto o persona con cui è confrontato.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="frondaisons">Frondaisons</term>
+                        <term xml:lang="it" ref="#frondaisons">Ramificazioni</term>
+                    </label>
+                    <item>
+                        <gloss target="#frondaisons" source="https://www.treccani.it/vocabolario/ramificazione/">
+                            in senso figurato, suddivisione o disposizione simile a quella dei rami d’una pianta.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="succesives">Succesives</term>
+                        <term xml:lang="it" ref="#succesives">Successive</term>
+                    </label>
+                    <item>
+                        <gloss target="#succesives" source="https://www.treccani.it/vocabolario/successivo/">
+                            che viene dopo nel tempo, nello spazio o in un altro rapporto.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="arbre">Arbre</term>
+                        <term xml:lang="it" ref="#arbre">Albero</term>
+                    </label>
+                    <item>
+                        <gloss target="#arbre" source="https://www.treccani.it/vocabolario/albero/">
+                            pianta perenne (cioè che vive più di due anni), legnosa, che ha un fusto a forma di cilindro detto tronco e si espande verso l’alto con rami che possono avere varia 
+                            forma e disposizione, sui quali crescono le foglie.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="insensible">Insensible</term>
+                        <term xml:lang="it" ref="#insensible">Insensibile</term>
+                    </label>
+                    <item>
+                        <gloss target="#insensible" source="">
+                            con sign. passivo, che sfugge alla percezione dei sensi, impercettibile o, con valore attivo, privo della capacità di sentire, inerte, inanimato.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="vie">Vie</term>
+                        <term xml:lang="it" ref="#vie">Vita</term>
+                    </label>
+                    <item>
+                        <gloss target="#vie" source="https://it.wikipedia.org/wiki/Vita">
+                            insieme delle caratteristiche degli esseri viventi che manifestano processi biologici come l'omeostasi, il metabolismo, la riproduzione e l'evoluzione.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="periode">Périodes</term>
+                        <term xml:lang="it" ref="#periode">Periodi</term>
+                    </label>
+                    <item>
+                        <gloss target="#periode" source="https://it.wiktionary.org/wiki/periodo">
+                            ammontare di tempo più o meno lungo (in fisica).
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="incontestablement">Incontestablement</term>
+                        <term xml:lang="it" ref="#incontestablement">Incontestabilmente</term>
+                    </label>
+                    <item>
+                        <gloss target="#incontestablement" source="https://www.treccani.it/vocabolario/incontestabile/">
+                            che non può essere contestato, cioè negato, oppugnato o messo in dubbio.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="idee">Idée</term>
+                        <term xml:lang="it" ref="#idee">Idee</term>
+                    </label>
+                    <item>
+                        <gloss target="#idee" source="https://www.treccani.it/vocabolario/idea/">
+                            opinione, il concetto che è alla base di un discorso.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="realite">Réalité</term>
+                        <term xml:lang="it" ref="#realite">Realtà</term>
+                    </label>
+                    <item>
+                        <gloss target="#realite" source="https://it.wikipedia.org/wiki/Realt%C3%A0">
+                            ciò che esiste effettivamente o che può esistere, di solito in contrasto a ciò che è apparente, illusorio, immaginario o fittizio.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="succession">Succession</term>
+                        <term xml:lang="it" ref="#succession">Successione</term>
+                    </label>
+                    <item>
+                        <gloss target="#succession" source="https://www.treccani.it/vocabolario/successione/">
+                            il susseguirsi nel tempo di avvenimenti e fenomeni.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="nom">Nom</term>
+                        <term xml:lang="it" ref="#nom">Nome</term>
+                    </label>
+                    <item>
+                        <gloss target="#nom" source="https://www.treccani.it/vocabolario/nome/">
+                            in senso ristretto, il sostantivo, cioè il vocabolo che serve a designare una singola persona, un singolo animale, una singola cosa.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="parties">Parties</term>
+                        <term xml:lang="it" ref="#parties">Parti</term>
+                    </label>
+                    <item>
+                        <gloss target="#parties" source="https://www.treccani.it/vocabolario/parte/">
+                            ciascuno degli elementi in cui un intero è diviso o può essere diviso, sia che essi siano materialmente staccati l’uno dall’altro, sia che possano essere soltanto considerati separatamente, 
+                            per caratteristiche, funzioni, qualità proprie (e spesso anche per nomi diversi).
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="existence">Existence</term>
+                        <term xml:lang="it" ref="#existence">Esistenza</term>
+                    </label>
+                    <item>
+                        <gloss target="#existence" source="https://www.treccani.it/vocabolario/esistenza/">
+                            il termine indica sia lo stato di ogni realtà in quanto è tale, sia, in senso specifico, lo stato della realtà che può essere oggetto di un’esperienza sensibile.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="distinct">Distinct</term>
+                        <term xml:lang="it" ref="#distinct">Distinto</term>
+                    </label>
+                    <item>
+                        <gloss target="#distinct" source="https://www.treccani.it/vocabolario/distinto/">
+                            separato, diviso, non unito o fuso o confuso insieme con altro o con altri.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="chose">Chose</term>
+                        <term xml:lang="it" ref="#chose">Cosa</term>
+                    </label>
+                    <item>
+                        <gloss target="#chose" source="https://www.treccani.it/vocabolario/cosa/">
+                            è il nome più indeterminato e più comprensivo della lingua italiana, col quale si indica, in modo generico, tutto quanto esiste, nella realtà o nell’immaginazione, 
+                            di concreto o di astratto, di materiale o d’ideale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="purement">Purement</term>
+                        <term xml:lang="it" ref="#purement">Puramente</term>
+                    </label>
+                    <item>
+                        <gloss target="#purement" source="https://www.treccani.it/vocabolario/puramente/">
+                            nell’uso com., l’avv. è usato più spesso con il sign. di semplicemente.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="nominale">Nominale</term>
+                        <term xml:lang="it" ref="#nominale">Nominale</term>
+                    </label>
+                    <item>
+                        <gloss target="#nominale" source="https://www.treccani.it/vocabolario/nominale/">
+                            del nome, come categoria grammaticale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="fictive">Fictive</term>
+                        <term xml:lang="it" ref="#fictive">Immaginario</term>
+                    </label>
+                    <item>
+                        <gloss target="#fictive" source="https://www.treccani.it/vocabolario/immaginario/">
+                            che è effetto d’immaginazione, che non esiste se non nell’immaginazione e non ha fondamento nella realtà.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="insensiblement">Insensiblement</term>
+                        <term xml:lang="it" ref="#insensiblement">Impercettibilmente</term>
+                    </label>
+                    <item>
+                        <gloss target="#insensiblement" source="https://www.treccani.it/vocabolario/impercettibile/">
+                            non percettibile, che non può cioè essere percepito o viene percepito a stento e non distintamente.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="esprit">Esprit</term>
+                        <term xml:lang="it" ref="#esprit">Spirito</term>
+                    </label>
+                    <item>
+                        <gloss target="#esprit" source="https://www.treccani.it/vocabolario/spirito/">
+                            più comunem. e genericam., principio di vita religiosa, morale, intellettuale di cui l’uomo è in varî modi e in varia misura partecipe e per il quale si eleva sul mondo materiale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="opposition">Opposition</term>
+                        <term xml:lang="it" ref="#opposition">Opposizione</term>
+                    </label>
+                    <item>
+                        <gloss target="#opposition" source="https://www.treccani.it/vocabolario/opposizione/">
+                            il fatto di opporsi, sia come resistenza armata, sia genericam. come azione con cui si cerca di ostacolare qualche cosa, di impedirne l’attuazione, di fare a essa contrasto anche negando il proprio consenso.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="progressivement">Progressivement</term>
+                        <term xml:lang="it" ref="#progressivement">Gradualmente</term>
+                    </label>
+                    <item>
+                        <gloss target="#progressivement" source="https://www.treccani.it/vocabolario/graduale1/">
+                            che procede, che si volge per gradi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="essentiel">L’essentiel</term>
+                        <term xml:lang="it" ref="#essentiel">L'essenziale</term>
+                    </label>
+                    <item>
+                        <gloss target="#essentiel" source="https://www.treccani.it/vocabolario/essenziale/">
+                            che costituisce o contiene l’essenza di una cosa; sostanziale, indispensabile.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="nexiste">N’existe</term>
+                        <term xml:lang="it" ref="#nexiste">Non esiste</term>
+                    </label>
+                    <item>
+                        <gloss target="#nexiste" source="https://www.treccani.it/vocabolario/esistere/">
+                            non essere nella realtà.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="litteralement">Littéralement</term>
+                        <term xml:lang="it" ref="#litteralement">Letteralmente</term>
+                    </label>
+                    <item>
+                        <gloss target="#litteralement" source="https://www.treccani.it/vocabolario/letterale/">
+                            che riguarda la lettera di uno scritto, che si attiene cioè al significato più ovvio e per così dire esterno delle parole, in contrapp. allo spirito, cioè al significato riposto, o, in altri casi, al senso allegorico.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="arbitraire">Arbitraire</term>
+                        <term xml:lang="it" ref="#arbitraire">Arbitrario</term>
+                    </label>
+                    <item>
+                        <gloss target="#arbitraire" source="https://www.treccani.it/vocabolario/arbitrario/">
+                            che dipende dalla volontà e dall’arbitrio del singolo senza riferimento a legge o norma esteriore.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:lang="fr" xml:id="conventionnelle">Conventionnelle</term>
+                        <term xml:lang="it" ref="#conventionnelle">Convenzionale</term>
+                    </label>
+                    <item>
+                        <gloss target="#conventionnelle" source="https://www.treccani.it/vocabolario/convenzione/">
+                            generale accordo circa la scelta tra possibilità diverse; in partic., nelle scienze, riguardo all’uso e al significato di determinati simboli, all’adozione di unità di misura, alle norme da seguire nell’uso 
+                            o nella formazione della terminologia, ecc.
+                        </gloss>
+                    </item>
+
+                </list>
+
+                <!-- Person -->
+                <listPerson>
+                    <person xml:id="FDS">
+                        <persName role="linguist">
+                            <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure" />
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </persName> 
+                        <birth>
+                            <date when="1857-11-26">26 novembre 1857</date>
+                            <placeName ref="#GE">Ginevra</placeName>
+                        </birth>
+                        <death>
+                            <date when="1913-02-22">22 febbraio 1913</date>
+                            <placeName ref="#VLC">Vufflens-le-Château</placeName>
+                        </death>
+                    </person>
+                </listPerson>
+
+                <!-- Bibliografia -->
+                <listBibl>      
+                    <bibl xml:lang="fr">
+                        <title>Cahiers Ferdinand de Saussure</title>
+                        <author>
+                            <persName>
+                                <forename>Alessandro</forename>
+                                <surname>Chidichimo</surname>
+                            </persName>
+                        </author>
+                        <pubPlace><placeName ref="#GE">Ginevra</placeName></pubPlace>
+                        <publisher>Librairie Droz</publisher>
+                        <date when="2009">2009</date>
+                    </bibl>
+
+                    <bibl xml:lang="it">
+                        <title type="main">Corso di linguistica generale</title>
+                        <title type="sub">introduzione, traduzione e commento di Tullio De Mauro</title>
+                        
+                        <author>
+                            <persName ref="#FDS">
+                                <forename>Ferdinand</forename>
+                                <surname>De Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName>
+                                <forename>Tullio</forename>
+                                <surname>De Mauro</surname>
+                            </persName>
+                        </author>
+                        <pubPlace><placeName ref="#RM">Roma</placeName></pubPlace>
+                        <pubPlace><placeName ref="#BA">Bari</placeName></pubPlace>
+                        <publisher>Laterza editore</publisher>
+                        <date when="1976">1976</date>
+                    </bibl>   
+
+                    <bibl xml:lang="it">
+                        <title type="main">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <author>
+                            <persName xml:id="EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>
+                        <pubPlace><placeName ref="#AR">Acireale</placeName></pubPlace>
+                        <publisher>Bonanno Editore</publisher>
+                        <date when="2006">2006</date>
+                    </bibl>
+
+                    <bibl xml:lang="fr">
+                        <title>Écrits de linguistique générale</title>
+                        <author>
+                            <persName ref="#FDS">
+                                <forename>Ferdinand</forename>
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName xml:id="SB">
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName xml:id="RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <pubPlace><placeName ref="#PA">Paris</placeName></pubPlace>
+                        <publisher>Gallimard</publisher>
+                        <date when="2002">2002</date>
+                    </bibl>
+                </listBibl>
+
+                <!-- Place -->
+                <listPlace>
+                    <place xml:id="GE">
+                        <placeName ref="https://it.wikipedia.org/wiki/Ginevra">
+                            <settlement type="city">Ginevra</settlement>
+                            <country type="nation">Svizzera</country>
+                        </placeName>
+                    </place>
+                    <place xml:id="RM">
+                        <placeName ref="https://it.wikipedia.org/wiki/Roma">
+                            <settlement type="city">Roma</settlement>
+                            <country type="nation">Italia</country>
+                        </placeName>
+                    </place>
+                    <place xml:id="BA">
+                        <placeName ref="https://it.wikipedia.org/wiki/Bari">
+                            <settlement type="city">Bari</settlement>
+                            <country type="nation">Italia</country>
+                        </placeName>
+                    </place>
+                    <place xml:id="AC">
+                        <placeName ref="https://it.wikipedia.org/wiki/Acireale">
+                            <settlement type="city">Acireale</settlement>
+                            <country type="nation">Italia</country>
+                        </placeName>
+                    </place>
+                    <place xml:id="PA">
+                        <placeName ref="https://it.wikipedia.org/wiki/Parigi">
+                            <settlement type="city">Parigi</settlement>
+                            <country type="nation">Francia</country>
+                        </placeName>
+                    </place>
+                </listPlace>
+
+            </div>
+        </back>
+
+    </text>
+</TEI>
